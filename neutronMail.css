@@ -300,6 +300,11 @@ section.mainSection .wrap{
 	display: block;
 	position: relative;
 }
+.slider{
+	width: 30px;
+	height: 40px;
+	border: 1px solid #000;
+}
 section.mainSection .someDiv{
 	text-align: right;
 	position: absolute;
