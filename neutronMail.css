@@ -364,6 +364,25 @@ section.mainSection .wrap img.mainImg{
 }
 /*section partners end*/
 
+/*section privacy start*/
+section.wrap.privacy{
+	margin: 0;
+	float: right;
+	border-top: 1px solid #b9b9b9;
+	padding: 6vw 0;
+}
+section.wrap.privacy .donate{
+	width: 55.55vw;
+	display: block;
+	float: left;
+	color: #7c7c7c;
+	text-align: center;
+}
+section.wrap.privacy .donate p{
+	margin-bottom: 4vh;
+}
+/*section privacy end*/
+
 /*footer start*/
 footer.wrap{
 	width: 66.66vw;
