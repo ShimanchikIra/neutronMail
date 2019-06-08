@@ -7,6 +7,11 @@ body{
 h1,p, h2, h3, h4, h5{
 	margin: 0;
 }
+h4{
+	font-size: 2vmax;
+	color: #535353;
+
+}
 ul{
 	padding: 0;
 }
@@ -284,6 +289,56 @@ section.wrap.customers img:last-child{
     margin-right: 0;
 }
 /*end customers section*/
+
+/*section main start*/
+section.mainSection{
+	width: 100%;
+	background: url("img/Layer30.png");
+	background-position-y: -30%;
+}
+section.mainSection .wrap{
+	display: block;
+	position: relative;
+}
+section.mainSection .someDiv{
+	text-align: right;
+	position: absolute;
+	left: calc( 50% - 16vw );
+	bottom: 20vh;
+	z-index: 5;
+}
+section.mainSection .someDiv p{
+	color: #959393;
+	font-size: 1vmax;
+	margin-bottom: 3.5vh;
+}
+section.mainSection .butBox{
+	width: 100%;
+	justify-content: flex-end;
+}
+section.mainSection .someDiv h4{
+	margin-bottom: 2.5vh;
+}
+section.mainSection a{
+	display: block;
+	width: 10vw;
+	height: 5.5vh;
+}
+section.mainSection a img{
+	width: 100%;
+	height: 100%;
+}
+section.mainSection a:first-child{
+	margin-right: 0.83vw;
+}
+section.mainSection .wrap img.mainImg{
+	position: relative;
+	right: 0;
+	z-index: 3;
+	bottom: -3vh;
+    left: 42vw;
+}
+/*end main section*/
 
 /*section partners start*/
 .wrap.partners{
