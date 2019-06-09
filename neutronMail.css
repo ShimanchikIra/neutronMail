@@ -299,6 +299,36 @@ section.mainSection .wrap{
 	display: block;
 	position: relative;
 }
+/*start slider*/
+#slider{
+	max-width: 30.5vw;
+	max-height: 27.5vh;
+	color: #101010;
+	font-size: 1.33vmax;
+	z-index: 10;
+	position: absolute;
+	left: 11.11vw;
+}
+#numQuotes{
+	width: 3.33vw;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: start;
+	border: 1px solid #000;
+	position: absolute;
+	left: 7.78vw;
+}
+section.mainSection input[type="radio"]{
+    margin-bottom: 0.6vh;
+}
+#slider p.author{
+	margin-top: 2vh;
+	color: #727272;
+	font-size: 0.88vmax;
+}
+/*end  slider*/
+
 section.mainSection .someDiv{
 	text-align: right;
 	position: absolute;
