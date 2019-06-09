@@ -119,6 +119,9 @@ header nav ul li{
 header nav ul li:last-child{
 	margin-right: 0;
 }
+header a.icon{
+	display: none;
+}
 header nav ul a{
 	color: #777777;
 	width: 100%;
@@ -494,4 +497,8 @@ ul.specialList.socialNetworks li a:hover {
 }
 /*footer end*/
 
+/*mobile version start*/
+@media screen and (max-width: 575px){
 
+}
+/*mobile version end*/
