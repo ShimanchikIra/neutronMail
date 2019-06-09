@@ -119,6 +119,9 @@ header nav ul li{
 header nav ul li:last-child{
 	margin-right: 0;
 }
+header li.icon{
+	display: none;
+}
 header nav ul a{
 	color: #777777;
 	width: 100%;
@@ -494,4 +497,32 @@ ul.specialList.socialNetworks li a:hover {
 }
 /*footer end*/
 
-
+/*mobile version start*/
+@media screen and (max-width: 575px){
+	header nav li{
+		display: none;
+	}
+	header nav li.icon{
+		display: block;
+	}
+	header nav ul{
+		/*display: block;*/
+		position: absolute;
+		left: 0;
+		bottom: 10vh;
+	}
+	header.wrap{
+		display: block;
+	}
+	.logo{
+		font-size: 1.66vmax;
+		font-weight: bold;
+		color: #858688;
+		letter-spacing: 0.11vmax;
+		margin-right: 2vw;
+		position: absolute;
+		left: 5vw;
+		bottom: 10vh;
+	}
+}
+/*mobile version end*/
