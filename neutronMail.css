@@ -155,7 +155,7 @@ header .but a:hover{
 .wrap.mainInfo{
     color: #636363;
     display: block;
-    text-align: center; 
+    text-align: center;
     padding-top: 17.5vh;
     padding-bottom: 32.8vh;
 }
@@ -210,7 +210,7 @@ section.wrap.descriptionBox .description{
 	color: #959393;
 	padding: 10vh 2.55vw;
 }
-section.wrap.descriptionBox .description .caption {	
+section.wrap.descriptionBox .description .caption {
 	padding-bottom: 3.7vh;
 	position: relative;
 }
@@ -222,7 +222,7 @@ section.wrap.descriptionBox .description h4{
 	top: 0;
 }
 section.wrap.descriptionBox .description .caption p{
-	font-size: 1vmax;	
+	font-size: 1vmax;
 	position: absolute;
 	left: 3.99vw;
 	top: 5vh;
@@ -232,7 +232,7 @@ section.wrap.descriptionBox .description .caption img{
 	width: 3vmax;
 	height: 3.33vmax;
 	box-sizing: border-box;
-	font-size: 1vmax;	
+	font-size: 1vmax;
 }
 /*end description*/
 
@@ -505,20 +505,18 @@ ul.specialList.socialNetworks li a:hover {
 	header nav li.icon{
 		display: block;
 	}
-	header nav ul{
-		/*display: block;*/
-		position: absolute;
-		left: 0;
-		bottom: 10vh;
+	header nav li.icon {
+		font-size: 4vmax !important;
+	}
+	header .butBox{
+		justify-content:  flex-end;
 	}
 	header.wrap{
-		display: block;
+		height: 10.8vh;
 	}
+	headerg
 	.logo{
-		margin-right: 2vw;
-		position: absolute;
-		left: 5vw;
-		bottom: 10vh;
+		margin-right: 4vw;
 	}
 }
 /*mobile version end*/
