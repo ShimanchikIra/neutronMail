@@ -510,15 +510,24 @@ ul.specialList.socialNetworks li a:hover {
 	}
 	header.wrap{
 		height: 10.8vh;
+        width: 85vw;
 	}
 	.logo{
-		margin-right: 4vw;
-	}
-	.but a{
-		padding: 0.72vw 2.22vmax;
+		margin-right: 2vw;
+        font-size: 3.66vmax;
 	}
 	header .but:first-child{
-		margin-right: 2vw;
+		margin-right: 3vw;
 	}
+    ul.specialList.lang {
+        bottom: 1vh;
+        font-size: 1vmax;
+    }
+    header nav ul a{
+        font-size: 1.7vmax;
+    }
+    .but a {
+        font-size: 1.2vmax;
+    }
 }
 /*mobile version end*/
