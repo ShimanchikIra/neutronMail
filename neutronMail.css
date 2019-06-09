@@ -10,7 +10,6 @@ h1,p, h2, h3, h4, h5{
 h4{
 	font-size: 2vmax;
 	color: #535353;
-
 }
 ul{
 	padding: 0;
@@ -21,6 +20,12 @@ p span{
 li,a{
 	list-style: none;
 	text-decoration: none;
+}
+.butBox{
+	width: inherit;
+	margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 .but a{
     border-radius: 1.55vmax;
@@ -158,12 +163,6 @@ h1{
 .mainInfo p{
     font-size: 2vmax;
     margin-bottom: 7.8vh;
-}
-.wrap.mainInfo .butBox{
-	width: inherit;
-	margin: 0 auto;
-    justify-content: center;
-    align-items: center;
 }
 .mainInfo .but.createAcc a{
 	padding: 0.66vmax 3.61vmax;
@@ -339,6 +338,47 @@ section.mainSection .wrap img.mainImg{
     left: 42vw;
 }
 /*end main section*/
+
+/*section privacy start*/
+section.wrap.privacy{
+	margin: 0;
+	float: right;
+	border-top: 1px solid #b9b9b9;
+	padding: 6vw 0;
+}
+section.wrap.privacy .donate{
+	width: 55.55vw;
+	display: block;
+	float: left;
+	color: #7c7c7c;
+	text-align: center;
+}
+section.wrap.privacy .donate p{
+	margin-bottom: 4vh;
+}
+section.wrap.privacy .but a{
+	background-position: center top 20%;
+}
+section.wrap.privacy .but.cloudBut a{
+	margin-right: 1vmax;
+	padding: 0.66vmax 1.8vmax;
+	background-color: rgb(95, 41, 102);
+	background-image: url("img/Layer8.png");
+}
+section.wrap.privacy .but img{
+	width: 1.11vmax;
+	height: 1.11vmax;
+	margin-right: 0.44vw;
+	position: relative;
+	bottom: -0.44vh;
+}
+section.wrap.privacy .but.donateBut a{
+	padding: 0.66vmax 2.5vmax;
+	background-color: #5e7bea;
+	background-image: url("img/Layer32.png");
+	box-shadow: 0 7px 9px 0 rgba(26, 230, 218, 0.15),0 13px 21px 0 rgba(26, 230, 218, 0.27),0 13px 21px 0 rgba(0, 0, 0, 0.15),0 4px 16px 0 rgba(26, 230, 218, 0.33),0 4px 16px 0 rgba(0, 0, 0, 0.09),0 3px 9px 0 rgba(26, 230, 218, 0.09),0 3px 9px 0 rgba(0, 0, 0, 0.09),0 3px 3px 0 rgba(26, 230, 218, 0.09),0 3px 3px 0 rgba(0, 0, 0, 0.17);
+}
+/*section privacy end*/
 
 /*section partners start*/
 .wrap.partners{
