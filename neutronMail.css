@@ -315,12 +315,12 @@ section.mainSection .wrap{
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: start;
-	border: 1px solid #000;
 	position: absolute;
 	left: 7.78vw;
 }
 section.mainSection input[type="radio"]{
     margin-bottom: 0.6vh;
+	width: 100%;
 }
 #slider p.author{
 	margin-top: 2vh;
