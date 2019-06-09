@@ -505,28 +505,17 @@ ul.specialList.socialNetworks li a:hover {
 	header nav li.icon{
 		display: block;
 	}
-	header nav li.icon {
-		font-size: 4vmax !important;
-	}
 	header .butBox{
 		justify-content:  flex-end;
 	}
 	header.wrap{
 		height: 10.8vh;
 	}
-
 	.logo{
 		margin-right: 4vw;
 	}
 	.but a{
-		/*border-radius: 1.55vmax;*/
 		padding: 0.72vw 2.22vmax;
-		/*font-weight: bold;*/
-		/*font-size: 0.99vmax;*/
-		/*color: #ffffff;*/
-		/*background-color: rgb(88, 44, 126);*/
-		/*background-image: url(img/Layer6.png);*/
-		/*box-shadow: 0 7px 9px 0 rgba(142, 117, 222, 0.15),0 13px 21px 0 rgba(20, 80, 204, 0.27),0 13px 21px 0 rgba(0, 0, 0, 0.15),0 4px 16px 0 rgba(102, 145, 233, 0.33),0 4px 16px 0 rgba(0, 0, 0, 0.09),0 3px 9px 0 rgba(53, 103, 205, 0.09),0 3px 9px 0 rgba(0, 0, 0, 0.09),0 3px 3px 0 rgba(102, 145, 233, 0.09),0 3px 3px 0 rgba(0, 0, 0, 0.17);*/
 	}
 	header .but:first-child{
 		margin-right: 2vw;
